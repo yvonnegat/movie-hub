@@ -1,0 +1,87 @@
+body{
+   background-image:url(theatre2.jpg);
+   background-size: 100%;
+   font-family: sans-serif;
+   color: black;
+   letter-spacing: 1px;
+   font-size: 25px;
+
+  
+    
+}
+.main{
+    max-width: 960px;
+    border: 2px ;
+    border-color: grey;
+    background-color: white;
+    margin: 20px auto;
+    overflow: hidden;
+    box-sizing: border-box;
+    box-shadow: 1px 10px 10px black;
+    padding: 0 0 20px;
+
+
+}
+.header{
+   background-image: url(theatre4.jpg);
+
+    color: rgb(1, 4, 6);
+    margin-top: -36px;
+    opacity: 0.8;
+    text-align: center;
+}
+#movielist ul{
+    list-style-type: none;
+    margin-left: 10px;
+    margin-right: 10px;
+        
+}
+#movielist ul li{
+   
+    margin-left:20px auto ;
+    margin-right:20px auto ;
+}
+.delete{
+    float: right;
+    background-color: black;
+    border-radius: 1px;
+    color: white;
+   
+}
+.delete:hover{
+    background-color:red ;
+}
+#candidate {
+    border-radius: 20%;
+    border-color: aquamarine;
+    box-sizing: border-box;
+}
+ 
+.buttonClass {
+    border-radius: 20%;
+    border-color: aqua;
+    border-style: inherit;
+}
+ 
+button:hover {
+    background-color: green;
+}
+#list{
+    list-style-type: lower-roman;
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-left: 2px solid black ;
+    margin: 10px;
+}
+#description{
+    color: rgb(39, 88, 5);
+    list-style-type: none;
+    margin: 10px;
+    
+}
+#list:hover{
+border-left: 2px solid greenyellow;
+}
+#movie{
+    margin: 10px;
+}
